@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "git: add-commit-push",
+            "type": "shell",
+            "command": "./git-add-commit-push.bat",
+            "presentation": {
+                "echo": true, 
+                "reveal": "always", 
+                "focus": true, 
+                "panel": "shared", 
+                "showReuseMessage": false, 
+                "clear": false
+            },
+            "group": {
+                "kind": "build", 
+                "isDefault": true
+            }            
+        }
+    ]
+}
